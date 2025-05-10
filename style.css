@@ -31,6 +31,7 @@ h1 {
   transition: background-color 0.3s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
+  text-decoration: none;
 }
 .botao1:hover,
 .botao2:hover {
@@ -62,7 +63,17 @@ h1 {
 }
 .mensagem {
   margin-top: 30px;
-  font-size: 1.5em;
-  color: white;
+  font-size: 6.2em;
+  color: black;
   text-align: center;
+}
+.botaoreturn {
+  width: fit-content;
+  margin: auto;
+  margin-top: 15px;
+  color: #fff;
+}
+.botaoreturn a {
+  color: #fff;
+  text-decoration: none;
 }
